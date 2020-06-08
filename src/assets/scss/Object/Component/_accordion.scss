@@ -1,0 +1,51 @@
+.c-accordion {
+  &__body {
+    display: none;
+  }
+  &__btn {
+    display: none;
+    cursor: pointer;
+    background: #ddd;
+    font-size: $font-size_m;
+    font-weight: bold;
+    text-align: center;
+    padding: $space_s $space_xl;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 40px;
+      @include mq() {
+        right: 20px;
+      }
+      transform: translateY(-50%);
+      width: 15px;
+      height: 2px;
+      background: $color_sub2;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 40px;
+      @include mq() {
+        right: 20px;
+      }
+      transform: translateY(-50%) rotate(90deg);
+      width: 15px;
+      height: 2px;
+      background: $color_sub2;
+    }
+    @include mq('md') {
+      display: block;
+    }
+    @include mq() {
+      font-size: $font-size_s;
+      padding: $space_s $space_m;
+    }
+  }
+  &__btn--search {
+    display: block;
+  }
+}

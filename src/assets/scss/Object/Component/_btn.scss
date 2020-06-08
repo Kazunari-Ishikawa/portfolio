@@ -1,0 +1,67 @@
+.c-btn {
+  cursor: pointer;
+  display: block;
+  background: $color_main;
+  border-radius: $radius_s;
+  box-shadow: 5px 5px 10px #ccc;
+  box-sizing: border-box;
+  color: white;
+  font-size: $font-size_m;
+  line-height: 50px;
+  text-align: center;
+  width: 150px;
+  transition: $time_s;
+  @include mq() {
+    line-height: 40px;
+  }
+  &:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  &--em {
+    background: $color_sub1;
+  }
+  &--full {
+    width: 100%;
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  &--hero {
+    box-shadow: none;
+    font-size: $font-size_l;
+    width: 200px;
+    @include mq() {
+      font-size: $font-size_m;
+    }
+  }
+  &--band {
+    border: 2px solid white;
+    box-shadow: none;
+    font-size: $font-size_l;
+    &:hover {
+      transform: none;
+      background: white;
+      color: $color_main;
+    }
+    @include mq() {
+      margin: 0 auto;
+      font-size: $font-size_m;
+    }
+  }
+  &__container {
+    margin-bottom: $space_xl;
+    @include mq() {
+      margin-bottom: $space_m;
+    }
+    &--right {
+      background: white;
+      display: flex;
+      justify-content: flex-end;
+      padding: $space_xl;
+      @include mq() {
+        padding: $space_m;
+      }
+    }
+  }
+}

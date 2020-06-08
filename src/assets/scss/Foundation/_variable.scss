@@ -1,0 +1,65 @@
+// ==================================
+// 変数定義
+// ==================================
+$color_bg: #fff;
+$color_default: #333;
+$color_main: #149bdf;
+$color_sub1: #e6d9b9;
+$color_sub2: #707070;
+$twitter: #1DA1F2;
+
+$font-family_default: "Noto Sans JP", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", Meiryo, sans-serif;
+$font-family_em: 'Oswald', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+
+// $font-size_s: 12px;
+// $font-size_m: 14px;
+// $font-size_default: 16px;
+// $font-size_l: 20px;
+// $font-size_2l: 24px;
+// $font-size_3l: 32px;
+// $font-size_em: 40px;
+
+// $space_s: 10px;
+// $space_m: 15px;
+// $space_default: 20px;
+// $space_l: 25px;
+// $space_2l: 30px;
+// $space_3l: 40px;
+// $space_4l: 80px;
+
+$font-size_s: 12px;
+$font-size_m: 16px;
+$font-size_l: 24px;
+$font-size_xl: 32px;
+$font-size_em: 40px;
+
+$space_xs: 5px;
+$space_s: 10px;
+$space_m: 16px;
+$space_default: 20px;
+$space_l: 24px;
+$space_xl: 40px;
+$space_contents: 80px;
+
+$radius_s: 4px;
+$radius_m: 10px;
+
+$height_input: 50px;
+$height_header:60px;
+$height_header-sm: 40px;
+
+$width_site: 960px;
+$width_btn: 150px;
+
+$time_s: 0.3s;
+$time_m: 0.6s;
+$time_l: 1s;
+$time_xl: 3s;
+
+$breakpoints: (
+  "sm": "screen and (max-width: 576px)",
+  "md": "screen and (max-width: 768px)",
+  "lg": "screen and (max-width: 992px)",
+  "xl": "screen and (max-width: 1200px)"
+) !default;

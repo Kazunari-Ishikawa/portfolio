@@ -1,0 +1,16 @@
+.l-nav {
+  @include mq('md') {
+    display: block;
+    background: rgba($color: #fff, $alpha: 0.9);
+    position: absolute;
+    top: $height_header;
+    right: -70vw;
+    height: 100vh;
+    width: 70vw;
+    transition: $time_m;
+    z-index: 2;
+    &.isActive {
+      transform: translateX(-100%);
+    }
+  }
+}

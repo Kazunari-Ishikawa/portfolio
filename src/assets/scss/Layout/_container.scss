@@ -1,0 +1,23 @@
+.l-container {
+  max-width: $width_site;
+  margin: 0 auto;
+  padding: $space_contents $space_default;
+  @include mq() {
+    padding: $space_xl;
+  }
+  &__title {
+    color: $color_main;
+    font-size: $font-size_xl;
+    font-weight: bold;
+    margin-bottom: $space_xl;
+    text-align: center;
+    @include mq() {
+      font-size: $font-size_l;
+      margin-bottom: $space_l;
+    }
+  }
+  &__body {
+    width: 100%;
+    overflow: hidden;
+  }
+}

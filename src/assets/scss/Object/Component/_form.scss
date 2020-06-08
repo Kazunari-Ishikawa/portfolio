@@ -1,0 +1,145 @@
+.c-form {
+  background: white;
+  padding: $space_xl;
+  @include mq() {
+    padding: $space_l;
+  }
+  &__group {
+    margin-bottom: $space_xl;
+    @include mq() {
+      margin-bottom: $space_l;
+    }
+    &--price {
+      display: flex;
+      align-items: flex-end;
+      @include mq() {
+        flex-wrap: wrap;
+      }
+    }
+    &--drop {
+      box-sizing: border-box;
+      border: 2px dashed $color_sub2;
+      display: block;
+      font-size: $font-size_s;
+      background: $color_bg;
+      height: 150px;
+      line-height: 150px;
+      width: 150px;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+    }
+    &--sm {
+      margin-bottom: $space_m;
+    }
+  }
+  &__label {
+    display: inline-block;
+    &--radio {
+      display: flex;
+      font-size: $font-size_m;
+      margin-bottom: 5px;
+    }
+    @include mq() {
+      font-size: $font-size_m;
+    }
+  }
+  &__input, &__textarea, &__select {
+    box-sizing: border-box;
+    border: 1px solid $color_sub2;
+    border-radius: $radius_s;
+    display: block;
+    font-size: $font-size_m;
+    height: $height_input;
+    padding: $space_s;
+    width: 100%;
+    &.isInvalid {
+      border: 1px solid red;
+    }
+    @include mq() {
+      font-size: $font-size_m;
+      height: 40px;
+    }
+  }
+  &__input--price {
+    width: 20%;
+    @include mq() {
+      width: 50%;
+      margin-bottom: $space_m;
+    }
+  }
+  &__textarea {
+    height: 200px;
+    &--message {
+      height: 80px;
+      @include mq() {
+        height: 40px;
+      }
+    }
+  }
+  &__radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  &__select {
+    color: $color_default;
+    background: $color_bg;
+    font-size: $font-size_m;
+    &--price {
+      width: auto;
+      font-size: $font-size_m;
+      margin-bottom: $space_m;
+      margin-right: $space_m;
+    }
+  }
+  &__file {
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  &__preview {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__price {
+    margin: 0 $space_s;
+    font-size: $font-size_m;
+    @include mq() {
+      margin-bottom: $space_s;
+    }
+  }
+  &__link {
+    font-size: $font-size_m;
+    margin-bottom: $space_m;
+    text-decoration: underline;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__text {
+    display: block;
+    font-size: $font-size_m;
+    margin-bottom: $space_m;
+    &--error {
+      color: red;
+      margin-bottom: 0;
+    }
+  }
+  &__sample {
+    border-radius: $radius_s;
+    background: rgba($color: $color_main, $alpha: 0.15);
+    font-size: $font-size_m;
+    padding: $space_s;
+    margin-bottom: $space_m;
+    @include mq() {
+      font-size: $font-size_s;
+    }
+  }
+}

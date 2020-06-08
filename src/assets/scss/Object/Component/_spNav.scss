@@ -1,0 +1,23 @@
+.c-spNav {
+  display: none;
+  @include mq('md') {
+    display: block;
+  }
+  &__container {
+    display: none;
+    @include mq('md') {
+      display: block;
+    }
+  }
+  &__item {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__link {
+    display: inline-block;
+    font-size: $font-size_m;
+    padding: $space_s 0;
+    transition: $time_s;
+  }
+}
