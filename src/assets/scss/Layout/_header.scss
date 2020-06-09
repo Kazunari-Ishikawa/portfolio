@@ -19,7 +19,6 @@
   }
   @include mq() {
     padding: 0 $space_m;
-    height: $height_header-sm;
   }
   &__title {
     font-size: $font-size_em;

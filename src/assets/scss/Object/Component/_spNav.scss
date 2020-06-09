@@ -15,7 +15,7 @@
     text-align: center;
   }
   &__link {
-    display: inline-block;
+    display: block;
     font-size: $font-size_m;
     padding: $space_s 0;
     transition: $time_s;
