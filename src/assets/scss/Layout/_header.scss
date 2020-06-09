@@ -19,6 +19,7 @@
   }
   @include mq() {
     padding: 0 $space_m;
+    height: $height_header-sm;
   }
   &__title {
     font-size: $font-size_em;
@@ -27,7 +28,7 @@
       color: $color_default;
     }
     @include mq() {
-      font-size: $font-size_xl;
+      font-size: $font-size_l;
     }
   }
 }

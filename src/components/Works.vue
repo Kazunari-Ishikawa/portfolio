@@ -7,7 +7,7 @@
           <ul class="p-works__header">
             <li class="p-works__name" :class="{'active' : tab === 1}" @click="tab = 1">わたしの100のリスト</li>
             <li class="p-works__name" :class="{'active' : tab === 2}" @click="tab = 2">matchworks</li>
-            <li class="p-works__name" :class="{'active' : tab === 3}" @click="tab = 3">ToDo-by-react</li>
+            <li class="p-works__name" :class="{'active' : tab === 3}" @click="tab = 3">ToDo-by-React</li>
             <li class="p-works__name" :class="{'active' : tab === 4}" @click="tab = 4">Animal Go!</li>
             <li class="p-works__name" :class="{'active' : tab === 5}" @click="tab = 5">わたしのご飯</li>
           </ul>
@@ -63,7 +63,7 @@
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">PHP (Laravel) / JavaScript (Vue.js)</p>
-                <p class="p-works__time">制作時間：200H</p>
+                <p class="p-works__time">制作時間：100H</p>
               </div>
               <div class="p-works__content">
                 <h4 class="p-works__subtitle">概要</h4>

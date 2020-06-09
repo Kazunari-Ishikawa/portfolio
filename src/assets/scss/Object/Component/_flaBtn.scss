@@ -12,24 +12,7 @@
     border: 1px solid $color_main;
     background: $color_main;
   }
-  &--bookmark {
-    &:hover {
-      color: white;
-      background: $color_main;
-      border: 1px solid $color_main;
-    }
-  }
-  &--isBookmarked {
-    color: white;
-    background: $color_main;
-    border: 1px solid $color_main;
-  }
-  &--twitter {
-    color: $twitter;
-    &:hover {
-      color: white;
-      background: $twitter;
-      border: 1px solid $twitter;
-    }
+  @include mq() {
+    font-size: $font-size_s;
   }
 }

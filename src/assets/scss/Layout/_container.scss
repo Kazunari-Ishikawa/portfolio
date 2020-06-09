@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: $space_contents $space_default;
   @include mq() {
-    padding: $space_xl;
+    padding: $space_xl $space_default;
   }
   &__title {
     color: $color_main;
