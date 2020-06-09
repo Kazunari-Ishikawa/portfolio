@@ -6,12 +6,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  opacity: 0;
+  transition: $time_s;
   padding: 0 $space_l;
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
   z-index: 1;
+  &.floatActive {
+    opacity: 1;
+  }
   @include mq() {
     padding: 0 $space_m;
   }
