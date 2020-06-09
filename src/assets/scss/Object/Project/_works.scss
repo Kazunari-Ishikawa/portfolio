@@ -3,7 +3,6 @@
   &__header {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: $space_default;
     margin-right: -$space_default;
   }
   &__name {
@@ -12,10 +11,11 @@
     border-bottom: 2px solid rgba($color: $color_sub1, $alpha: 0);
     font-size: $font-size_l;
     padding: $space_xs 0;
+    margin-bottom: $space_default;
     margin-right: $space_default;
     text-align: center;
     width: calc(33.33% - #{$space_default});
-    &:last-child {
+    &:nth-child(3n) {
       margin-right: 0;
     }
     &:hover {
