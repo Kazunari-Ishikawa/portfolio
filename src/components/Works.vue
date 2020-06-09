@@ -5,9 +5,9 @@
       <div class="l-container__body">
         <div class="p-works">
           <ul class="p-works__header">
-            <li class="p-works__title">わたしの100のリスト</li>
-            <li class="p-works__title">matchworks</li>
-            <li class="p-works__title">わたしのご飯</li>
+            <li class="p-works__name active">わたしの100のリスト</li>
+            <li class="p-works__name">matchworks</li>
+            <li class="p-works__name">わたしのご飯</li>
           </ul>
           <div class="p-works__body">
             <div class="p-works__left">
@@ -40,7 +40,12 @@
 
 <script>
 export default {
-  name: "Works"
+  name: "Works",
+  data() {
+    return {
+      display: false
+    };
+  }
 };
 </script>
 
