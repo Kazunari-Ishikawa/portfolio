@@ -1,6 +1,6 @@
 .p-hero {
   box-sizing: border-box;
-  background-image: url('/src/img/hero.jpg');
+  background-image: url('/img/hero2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   min-height: 600px;
   position: relative;
   @include mq('md') {
