@@ -27,9 +27,11 @@
     }
     @include mq('md') {
       font-size: $font-size_m;
+      margin-bottom: $space_m;
     }
     @include mq('sm') {
       font-size: $font-size_s;
+      margin-bottom: $space_s;
       margin-right: $space_s;
       width: calc(50% - #{$space_s});
       &:nth-child(3n) {

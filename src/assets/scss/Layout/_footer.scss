@@ -6,6 +6,9 @@
   &__body {
     padding: $space_xl;
     text-align: center;
+    @include mq() {
+      padding: $space_xl $space_default;
+    }
   }
   &__link {
     display: flex;
@@ -23,5 +26,8 @@
   }
   &__text {
     font-size: $font-size_m;
+    @include mq() {
+      font-size: $font-size_s;
+    }
   }
 }

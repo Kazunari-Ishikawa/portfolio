@@ -35,6 +35,7 @@
   &__title {
     text-align: center;
     font-size: $font-size_em;
+    font-family: $font-family_em;
     padding: 0 $space_default;
     position: relative;
     &.active {
@@ -53,6 +54,9 @@
       transition: $time_m all;
       transform: translateX(-50%);
       width: 0;
+    }
+    @include mq() {
+      font-size: $font-size_xl;
     }
   }
 }

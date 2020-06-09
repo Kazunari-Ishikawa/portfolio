@@ -1,0 +1,8 @@
+.p-profile {
+  &__text {
+    margin-bottom: $space_m;
+    @include mq() {
+      font-size: $font-size_s;
+    }
+  }
+}
