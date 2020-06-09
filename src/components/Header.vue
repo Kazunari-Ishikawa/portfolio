@@ -15,6 +15,9 @@
         <li class="c-nav__item">
           <a class="c-nav__link" href="#profile">PROFILE</a>
         </li>
+        <li class="c-nav__item">
+          <a class="c-nav__link" href="#contact">CONTACT</a>
+        </li>
       </ul>
 
       <!-- スマホ・タブレット用メニュー -->
@@ -27,6 +30,9 @@
         </li>
         <li class="c-spNav__item">
           <a class="c-spNav__link" href="#profile">PROFILE</a>
+        </li>
+        <li class="c-spNav__item">
+          <a class="c-spNav__link" href="#contact">CONTACT</a>
         </li>
       </ul>
     </nav>

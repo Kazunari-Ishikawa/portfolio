@@ -6,6 +6,8 @@
     <Works />
     <!-- PROFILE -->
     <Profile />
+    <!-- CONTACT -->
+    <Contact />
   </main>
 </template>
 
@@ -13,13 +15,15 @@
 import Hero from "./Hero";
 import Works from "./Works";
 import Profile from "./Profile";
+import Contact from "./Contact";
 
 export default {
   name: "MainComponent",
   components: {
     Hero,
     Works,
-    Profile
+    Profile,
+    Contact
   }
 };
 </script>
