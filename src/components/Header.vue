@@ -1,7 +1,7 @@
 <template>
   <header id="header" class="l-header" :class="{ floatActive: isActive }" v-scroll="floatHeader">
     <a class="l-header__title" href="index.html">
-      <h1>Portfolio</h1>
+      <h1>KAZU'S WORKSHOP</h1>
     </a>
     <nav class="l-nav js-header-toggle-target" :class="{isActive : toggleActive}">
       <!-- PC用メニュー -->
