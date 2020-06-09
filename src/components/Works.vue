@@ -14,7 +14,7 @@
 
           <div class="p-works__body" v-show="tab == 1">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/sample.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/wishList100.jpg" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -46,7 +46,7 @@
 
           <div class="p-works__body" v-show="tab == 2">
             <div class="p-works__left">
-              <!-- <img class="p-works__img" src="@/assets/img/sample.jpg" alt /> -->
+              <img class="p-works__img" src="@/assets/img/matchworks.jpg" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -74,7 +74,7 @@
 
           <div class="p-works__body" v-show="tab == 3">
             <div class="p-works__left">
-              <!-- <img class="p-works__img" src="@/assets/img/sample.jpg" alt /> -->
+              <img class="p-works__img" src="@/assets/img/todoapp.jpg" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -95,7 +95,7 @@
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">JavaScript (React)</p>
-                <p class="p-works__time">制作時間：15H</p>
+                <p class="p-works__time">制作時間：10H</p>
               </div>
               <div class="p-works__content">
                 <h4 class="p-works__subtitle">概要</h4>
@@ -106,7 +106,7 @@
 
           <div class="p-works__body" v-show="tab == 4">
             <div class="p-works__left">
-              <!-- <img class="p-works__img" src="@/assets/img/sample.jpg" alt /> -->
+              <img class="p-works__img" src="@/assets/img/animalgo.jpg" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -138,7 +138,7 @@
 
           <div class="p-works__body" v-show="tab == 5">
             <div class="p-works__left">
-              <!-- <img class="p-works__img" src="@/assets/img/sample.jpg" alt /> -->
+              <img class="p-works__img" src="@/assets/img/gohan.jpg" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
