@@ -67,7 +67,10 @@
               </div>
               <div class="p-works__content">
                 <h4 class="p-works__subtitle">概要</h4>
-                <p class="p-works__text">誰でも手軽に仕事を依頼、応募できる、ITエンジニア向けの仕事マッチングサービス。</p>
+                <p class="p-works__text">
+                  ITエンジニア向けの仕事マッチングサービス。
+                  <br />既存のサービスは入力項目が多くわかりにくいため、誰でも手軽に仕事を依頼、応募できる場を提供することを目的として制作。
+                </p>
               </div>
             </div>
           </div>
@@ -99,7 +102,7 @@
               </div>
               <div class="p-works__content">
                 <h4 class="p-works__subtitle">概要</h4>
-                <p class="p-works__text">ToDoアプリをReactを使って作成。 また、ReactライブラリのReduxも使用。</p>
+                <p class="p-works__text">ToDoアプリをReactを使って作成。ReactライブラリのReduxも使用。</p>
               </div>
             </div>
           </div>

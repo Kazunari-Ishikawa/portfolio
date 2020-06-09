@@ -2,17 +2,17 @@
   box-sizing: border-box;
   box-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.1);
   background: rgba($color: #fff, $alpha: 0.8);
-  height: $height_header;
   display: flex;
+  padding: 0 $space_default;
   align-items: center;
   justify-content: space-between;
-  opacity: 0;
-  transition: $time_s;
-  padding: 0 $space_l;
   position: fixed;
   top: 0;
   right: 0;
+  height: $height_header;
   width: 100%;
+  opacity: 0;
+  transition: $time_s;
   z-index: 1;
   &.floatActive {
     opacity: 1;
