@@ -1,6 +1,9 @@
 .p-hero {
   box-sizing: border-box;
-  background-image: url('/img/hero2.jpg');
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),url('/img/hero2.jpg');
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),url('/img/hero2.jpg');
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6)),url('/img/hero2.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,10 +33,26 @@
     }
   }
   &__title {
-    color: white;
     text-align: center;
     font-size: $font-size_em;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid white;
+    padding: 0 $space_default;
+    position: relative;
+    &.active {
+      &:after {
+        width: 100%;
+      }
+    }
+    &:after {
+      content: '';
+      background: $color_main;
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 50%;
+      height: 2px;
+      transition: $time_m all;
+      transform: translateX(-50%);
+      width: 0;
+    }
   }
 }

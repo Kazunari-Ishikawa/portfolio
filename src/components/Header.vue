@@ -1,5 +1,5 @@
 <template>
-  <header class="l-header" :class="{ floatActive: isActive }" v-scroll="floatHeader">
+  <header id="header" class="l-header" :class="{ floatActive: isActive }" v-scroll="floatHeader">
     <a class="l-header__title" href="index.html">
       <h1>Portfolio</h1>
     </a>
@@ -31,19 +31,19 @@ export default {
   name: "Header",
   data() {
     return {
-      height: null,
       isActive: false
     };
   },
   methods: {
     floatHeader() {
       const heroHeight = document.getElementById("hero").offsetHeight;
+      const headerHeight = document.getElementById("header").offsetHeight;
       // スクロールが要素を超えた場合、フロートメニューを表示
-      if (window.scrollY > heroHeight) {
+      if (window.scrollY > heroHeight - headerHeight) {
         this.isActive = true;
       }
       // スクロールが要素未満の場合、フロートメニューを非表示
-      if (window.scrollY < heroHeight) {
+      if (window.scrollY < heroHeight - headerHeight) {
         this.isActive = false;
       }
     }
