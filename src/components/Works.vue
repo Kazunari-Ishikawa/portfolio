@@ -1,7 +1,9 @@
 <template>
   <div class="u-bgSubColor">
     <section id="works" class="l-container">
-      <h2 class="l-container__title">WORKS</h2>
+      <div class="l-container__header">
+        <h2 class="l-container__title">WORKS</h2>
+      </div>
       <div class="l-container__body">
         <div class="p-works">
           <ul class="p-works__header">

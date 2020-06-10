@@ -1,6 +1,8 @@
 <template>
   <section id="profile" class="l-container">
-    <h2 class="l-container__title">PROFILE</h2>
+    <div class="l-container__header">
+      <h2 class="l-container__title">PROFILE</h2>
+    </div>
     <div class="l-container__body">
       <p class="p-profile__text">1991年生まれ、愛知県名古屋市在住。</p>
       <p class="p-profile__text">

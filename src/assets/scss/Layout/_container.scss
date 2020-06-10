@@ -5,12 +5,31 @@
   @include mq() {
     padding: $space_xl $space_default;
   }
+  &__header {
+    text-align: center;
+  }
   &__title {
     color: $color_main;
+    display: inline-block;
     font-size: $font-size_xl;
     font-weight: bold;
     margin-bottom: $space_xl;
-    text-align: center;
+    position: relative;
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      top: 45%;
+      width: 20px;
+      height: 1px;
+      display: inline-block;
+      border-top: 2px solid $color_main;
+    }
+    &::before {
+      left: -30px;
+    }
+    &::after {
+      right: -30px;
+    }
     @include mq() {
       font-size: $font-size_l;
       margin-bottom: $space_l;

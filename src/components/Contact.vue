@@ -1,7 +1,9 @@
 <template>
   <div class="u-bgSubColor">
     <section id="contact" class="l-container">
-      <h2 class="l-container__title">CONTACT</h2>
+      <div class="l-container__header">
+        <h2 class="l-container__title">CONTACT</h2>
+      </div>
       <div class="l-container__body">
         <div class="c-form">
           <p class="c-form__text u-textCenter">下記twitterアカウントにDMにてご連絡ください。</p>
