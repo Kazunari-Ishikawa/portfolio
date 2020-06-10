@@ -16,7 +16,7 @@
 
           <div class="p-works__body" v-show="tab == 1">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/wishList100.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/wishList100.png" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -48,7 +48,7 @@
 
           <div class="p-works__body" v-show="tab == 2">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/matchworks.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/matchworks.png" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -79,7 +79,7 @@
 
           <div class="p-works__body" v-show="tab == 3">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/todoapp.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/todoapp.png" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -111,7 +111,7 @@
 
           <div class="p-works__body" v-show="tab == 4">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/animalgo.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/animalgo.png" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
@@ -143,7 +143,7 @@
 
           <div class="p-works__body" v-show="tab == 5">
             <div class="p-works__left">
-              <img class="p-works__img" src="@/assets/img/gohan.jpg" alt />
+              <img class="p-works__img" src="@/assets/img/gohan.png" alt />
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
