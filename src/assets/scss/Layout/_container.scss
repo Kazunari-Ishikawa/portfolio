@@ -1,0 +1,42 @@
+.l-container {
+  max-width: $width_site;
+  margin: 0 auto;
+  padding: $space_contents $space_default;
+  @include mq() {
+    padding: $space_xl $space_default;
+  }
+  &__header {
+    text-align: center;
+  }
+  &__title {
+    color: $color_main;
+    display: inline-block;
+    font-size: $font-size_xl;
+    font-weight: bold;
+    margin-bottom: $space_xl;
+    position: relative;
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      top: 45%;
+      width: 20px;
+      height: 1px;
+      display: inline-block;
+      border-top: 2px solid $color_main;
+    }
+    &::before {
+      left: -30px;
+    }
+    &::after {
+      right: -30px;
+    }
+    @include mq() {
+      font-size: $font-size_l;
+      margin-bottom: $space_l;
+    }
+  }
+  &__body {
+    width: 100%;
+    overflow: hidden;
+  }
+}

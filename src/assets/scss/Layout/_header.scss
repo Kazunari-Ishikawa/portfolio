@@ -1,0 +1,33 @@
+.l-header {
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.1);
+  background: rgba($color: #fff, $alpha: 0.8);
+  display: flex;
+  padding: 0 $space_default;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: $height_header;
+  width: 100%;
+  opacity: 0;
+  transition: $time_s;
+  z-index: 1;
+  &.floatActive {
+    opacity: 1;
+  }
+  @include mq() {
+    padding: 0 $space_m;
+  }
+  &__title {
+    font-size: $font-size_xl;
+    font-family: $font-family_em;
+    &:hover {
+      color: $color_default;
+    }
+    @include mq() {
+      font-size: $font-size_l;
+    }
+  }
+}

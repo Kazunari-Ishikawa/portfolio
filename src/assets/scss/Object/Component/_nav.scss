@@ -1,0 +1,24 @@
+.c-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  @include mq('md') {
+    display: none;
+  }
+  &__item {
+    display: block;
+    margin-right: $space_s;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    display: block;
+    font-size: $font-size_m;
+    padding: $space_s 0;
+    transition: $time_s;
+    @include mq() {
+      font-size: $font-size_s;
+    }
+  }
+}

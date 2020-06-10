@@ -1,0 +1,18 @@
+.c-flatBtn {
+  background: white;
+  cursor: pointer;
+  display: block;
+  font-size: $font-size_m;
+  padding: $space_s;
+  border: 1px solid $color_sub2;
+  border-radius: $radius_s;
+  transition: $time_s;
+  &:hover {
+    color: white;
+    border: 1px solid $color_main;
+    background: $color_main;
+  }
+  @include mq() {
+    font-size: $font-size_s;
+  }
+}
