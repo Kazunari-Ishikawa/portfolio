@@ -30,10 +30,15 @@
                 <a
                   href="https://github.com/Kazunari-Ishikawa/wishlist100"
                   target="_blank"
-                  class="c-flatBtn"
+                  class="c-flatBtn u-mr20"
                 >
                   <i class="fab fa-github u-mr5"></i>GitHub
                 </a>
+                <a
+                  href="https://workshopkazu.com/wishlist100"
+                  target="_blank"
+                  class="c-flatBtn"
+                >制作日誌</a>
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">PHP (Laravel) / JavaScript (Vue.js)</p>
@@ -58,14 +63,15 @@
                 <a
                   href="https://github.com/Kazunari-Ishikawa/matchworks"
                   target="_blank"
-                  class="c-flatBtn"
+                  class="c-flatBtn u-mr20"
                 >
                   <i class="fab fa-github u-mr5"></i>GitHub
                 </a>
+                <a href="https://workshopkazu.com/matchworks" target="_blank" class="c-flatBtn">制作日誌</a>
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">PHP (Laravel) / JavaScript (Vue.js)</p>
-                <p class="p-works__time">制作時間：100H</p>
+                <p class="p-works__time">制作時間：200H</p>
               </div>
               <div class="p-works__content">
                 <h4 class="p-works__subtitle">概要</h4>
@@ -125,10 +131,11 @@
                 <a
                   href="https://github.com/Kazunari-Ishikawa/animalgo"
                   target="_blank"
-                  class="c-flatBtn"
+                  class="c-flatBtn mr-20"
                 >
                   <i class="fab fa-github u-mr5"></i>GitHub
                 </a>
+                <a href="https://workshopkazu.com/animalgo" target="_blank" class="c-flatBtn">制作日誌</a>
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">PHP</p>
@@ -157,10 +164,15 @@
                 <a
                   href="https://github.com/Kazunari-Ishikawa/RecipeShare"
                   target="_blank"
-                  class="c-flatBtn"
+                  class="c-flatBtn mr-20"
                 >
                   <i class="fab fa-github u-mr5"></i>GitHub
                 </a>
+                <a
+                  href="https://workshopkazu.com/watashinogohan"
+                  target="_blank"
+                  class="c-flatBtn"
+                >制作日誌</a>
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">PHP / JavaScript (jQuery)</p>
