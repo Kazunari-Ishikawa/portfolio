@@ -24,16 +24,12 @@
                   href="https://wishlist100.herokuapp.com"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fas fa-desktop u-mr5"></i>公開サイト
-                </a>
+                >公開サイト</a>
                 <a
                   href="https://github.com/Kazunari-Ishikawa/wishlist100"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fab fa-github u-mr5"></i>GitHub
-                </a>
+                >GitHub</a>
                 <a
                   href="https://workshopkazu.com/wishlist100"
                   target="_blank"
@@ -57,16 +53,12 @@
             </div>
             <div class="p-works__right">
               <div class="p-works__link">
-                <a href="https://matchworks.site" target="_blank" class="c-flatBtn u-mr20">
-                  <i class="fas fa-desktop u-mr5"></i>公開サイト
-                </a>
+                <a href="https://matchworks.site" target="_blank" class="c-flatBtn u-mr20">公開サイト</a>
                 <a
                   href="https://github.com/Kazunari-Ishikawa/matchworks"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fab fa-github u-mr5"></i>GitHub
-                </a>
+                >GitHub</a>
                 <a href="https://workshopkazu.com/matchworks" target="_blank" class="c-flatBtn">制作日誌</a>
               </div>
               <div class="p-works__info">
@@ -93,16 +85,12 @@
                   href="https://kazuishikawa.xsrv.jp/todoreact/"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fas fa-desktop u-mr5"></i>公開サイト
-                </a>
+                >公開サイト</a>
                 <a
                   href="https://github.com/Kazunari-Ishikawa/ToDo-App-by-React-Redux"
                   target="_blank"
                   class="c-flatBtn"
-                >
-                  <i class="fab fa-github u-mr5"></i>GitHub
-                </a>
+                >GitHub</a>
               </div>
               <div class="p-works__info">
                 <p class="p-works__fw">JavaScript (React)</p>
@@ -125,16 +113,12 @@
                   href="https://kazuishikawa.xsrv.jp/animal"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fas fa-desktop u-mr5"></i>公開サイト
-                </a>
+                >公開サイト</a>
                 <a
                   href="https://github.com/Kazunari-Ishikawa/animalgo"
                   target="_blank"
-                  class="c-flatBtn mr-20"
-                >
-                  <i class="fab fa-github u-mr5"></i>GitHub
-                </a>
+                  class="c-flatBtn u-mr20"
+                >GitHub</a>
                 <a href="https://workshopkazu.com/animalgo" target="_blank" class="c-flatBtn">制作日誌</a>
               </div>
               <div class="p-works__info">
@@ -158,16 +142,12 @@
                   href="https://kazuishikawa.xsrv.jp/gohan/"
                   target="_blank"
                   class="c-flatBtn u-mr20"
-                >
-                  <i class="fas fa-desktop u-mr5"></i>公開サイト
-                </a>
+                >公開サイト</a>
                 <a
                   href="https://github.com/Kazunari-Ishikawa/RecipeShare"
                   target="_blank"
-                  class="c-flatBtn mr-20"
-                >
-                  <i class="fab fa-github u-mr5"></i>GitHub
-                </a>
+                  class="c-flatBtn u-mr20"
+                >GitHub</a>
                 <a
                   href="https://workshopkazu.com/watashinogohan"
                   target="_blank"
