@@ -4,5 +4,5 @@
 
 制作物のまとめサイト  
 
-https://workshopkazu.com
+https://workshopkazu.com/home  
 
